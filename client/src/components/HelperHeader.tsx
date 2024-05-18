@@ -67,7 +67,7 @@ export default function HelperHeader() {
     (state: RootState) => state.compilerSlice.currentLanguage
   );
   return (
-    <div className="__helper_header h-[50px] bg-slate-900 text-white p-2 flex justify-between items-center">
+    <div className="__helper_header h-[50px] bg-slate-950 text-white p-2 flex justify-between items-center">
       <div className="__btn_container flex gap-1">
         <Button
           onClick={handleSaveCode}
@@ -160,4 +160,7 @@ export default function HelperHeader() {
       </div>
     </div>
   );
-}
+} 
+
+
+
